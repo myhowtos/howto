@@ -34,6 +34,13 @@ Isolations:
 Dirty Read
 ![img_9.png](img_9.png)
 ![img_10.png](img_10.png)
+
 # CAP
 
+
+#Nosql
+
+## MongoDB vs Cassandra
+https://www.mongodb.com/resources/compare/cassandra-vs-mongodb
+![image](https://github.com/user-attachments/assets/616cda72-0220-4416-a940-b62dee54a6ed)
 
