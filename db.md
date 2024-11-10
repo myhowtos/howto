@@ -41,6 +41,19 @@ Dirty Read
 #Nosql
 
 ## MongoDB vs Cassandra
+
+Когда использовать?
+
+Cassandra для высокой доступности:
+    высокое время безотказной работы
+    распределенная архитектура
+
+MongoDB для данных которые постоянно меняются:
+    неструктурированные данные с помощью документоориентированного подхода
+    ACID complaint
+    
+https://aws.amazon.com/ru/compare/the-difference-between-cassandra-and-mongodb/
+
 https://www.mongodb.com/resources/compare/cassandra-vs-mongodb
 ![image](https://github.com/user-attachments/assets/616cda72-0220-4416-a940-b62dee54a6ed)
 
