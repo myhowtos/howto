@@ -1,5 +1,5 @@
 # Normalization:
-
+![img_7.png](img_7.png)
 - 1NF:
   - Each record has a unique primary key 
   - Each table cell contains a single value
@@ -10,23 +10,30 @@
 - BCNF (Boyce-Codd Normal Form):
 	Every determinant must be a candidate key.
 - 4NF:
-	No table has more than one independent multi-valued dependency.
+	multi-valued dependency on the full key.
 - 5NF:
 	Tables should be free from join dependencies and any form of redundancy
 
-https://www.youtube.com/watch?v=GFQaEYEc8_8	
-
+About 3NF: https://www.youtube.com/watch?v=GFQaEYEc8_8
 ![img.png](img.png)
 ![img_1.png](img_1.png)
 
-	every non-key attribute is fully dependent on the primary key
-3NF + BCNF	no transitive dependencies.
-BCNF	If a table is in 3NF and every non-prime attribute fully dependent on the candidate keys, then it is in BCNF.
-4NF	If a table is in BCNF and has no multi-valued dependencies, it is in 4NF.
+About 4NF:
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)
 
+About 5NF:
+![img_4.png](img_4.png)
+![img_6.png](img_6.png)
 # ACID
+![img_8.png](img_8.png)
 
+Isolations:
+![img_11.png](img_11.png)
 
+Dirty Read
+![img_9.png](img_9.png)
+![img_10.png](img_10.png)
 # CAP
 
 
